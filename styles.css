@@ -69,3 +69,8 @@ main {
 		font-size: 4rem;
 	}
 }
+
+.title {
+	color: white;
+	font-weight: bold;
+}
