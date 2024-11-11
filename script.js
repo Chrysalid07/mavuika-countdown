@@ -4,7 +4,7 @@ const $minutes = document.querySelector("#minutes");
 const $seconds = document.querySelector("#seconds");
 const $completeTime = document.querySelector("#completeTime");
 
-const targetDateTime = new Date("2024-11-20T03:00:00Z");
+const targetDateTime = new Date("2025-01-01T03:00:00Z");
 
 $completeTime.textContent = targetDateTime.toLocaleString(navigator.language, {
 	year: "numeric",
